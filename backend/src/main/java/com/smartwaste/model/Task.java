@@ -31,11 +31,11 @@ public class Task {
     private String completionNotes;
 
     @Lob
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String beforeImageUrl;
 
     @Lob
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String afterImageUrl;
 
     private Double distanceKm = 1.2;
